@@ -7,10 +7,10 @@ import  TrackList from "../TrackList/TrackList";
 class Playlist extends Component {
   render() {
     return (
-      <div class="Playlist">
+      <div className="Playlist">
         <input value="New Playlist" />
         <TrackList />
-        <button class="Playlist-save">SAVE TO SPOTIFY</button>
+        <button className="Playlist-save">SAVE TO SPOTIFY</button>
       </div>
     );
   }
