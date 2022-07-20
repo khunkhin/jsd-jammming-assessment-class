@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 
 import "./App.css";
 
@@ -6,7 +6,7 @@ import SearchBar from "../SearchBar/SearchBar";
 import SearchResults from "../SearchResults/SearchResults";
 import Playlist from "../Playlist/Playlist";
 
-class App extends Component {
+class App extends React.Component {
   constructor(props){
     super(props);
 

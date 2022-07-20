@@ -1,15 +1,15 @@
-import React, { Component } from "react";
+import React from "react";
 
 import "./SearchBar.css";
 
-class SearchBar extends Component {
+class SearchBar extends ReactComponent {
   render() {
     return (
       <div className="SearchBar">
         <input placeholder="Enter A Song, Album, or Artist" />
         <button className="SearchButton">SEARCH</button>
       </div>
-    );
+    )
   }
 }
 
