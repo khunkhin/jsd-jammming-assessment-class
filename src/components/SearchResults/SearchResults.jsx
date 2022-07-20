@@ -1,10 +1,17 @@
 import React, { Component } from "react";
 
-//import SearchResults.css
+import "./SearchResults.css";
+
+import  TrackList from "../TrackList/TrackList";
 
 class SearchResults extends Component {
   render() {
-    return <div>SearchResults</div>;
+    return (
+      <div className="SearchResults">
+        <h2>Results</h2>
+        <TrackList />
+      </div>
+    );
   }
 }
 
