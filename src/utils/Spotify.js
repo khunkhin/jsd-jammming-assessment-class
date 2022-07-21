@@ -2,7 +2,8 @@
 const clientId = "8b26dfc2da454821b1bb11fa74bd710f";
 
 const redirectUri = "http://127.0.0.1:5173/";
-const spotifyUrl = `https://accounts.spotify.com/authorize?response_type=token&scope=playlist-modify-public&client_id=${clientId}&redirect_uri=${redirectUri}`;
+const spotifyUrl = `https://accounts.spotify.com/authorize?client_id=${clientId}&response_type=token&scope=playlist-modify-public&redirect_uri=${redirectUri}`;
+
 let accessToken = undefined;
 let expiresIn = undefined;
 
